@@ -49,5 +49,5 @@ jobs:
           echo how many numbers of containers ruuning of docker in basckground?
           sudo docker ps -a 
           echo "--------------------------"
-          what is the memory consumption in machine?
+          echo what is the memory consumption in machine?
           df -h
