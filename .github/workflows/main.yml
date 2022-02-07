@@ -43,7 +43,8 @@ jobs:
           echo 
           echo what are build tools version?
           mvn --version
-          ant --version 
-          echo
+          gradle --version 
+          ant -version
+          
           
    
