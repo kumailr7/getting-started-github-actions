@@ -47,6 +47,8 @@ jobs:
           ant -version
           echo what is docker version?
           docker --version 
+          echo show me the process of memory in linux machine?
+          df -h
           
           
    
