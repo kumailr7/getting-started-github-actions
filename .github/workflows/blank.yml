@@ -34,18 +34,18 @@ jobs:
         run: |
           echo what is the version of git?
           git --version
-          echo ""--------------------------"
+          echo "--------------------------"
           echo what are the version of build tools ?
           mvn --version 
           gradle --version 
           ant -version 
-          echo ""--------------------------"
+          echo "--------------------------"
           echo what is the version of java installed?
           java -version
-          echo ""--------------------------"
+          echo "--------------------------"
           echo what is the version of docker installed?
           docker --version 
-          echo ""--------------------------"
+          echo "--------------------------"
           echo how many numbers of containers ruuning of docker in basckground?
           sudo docker ps -a 
           echo "--------------------------"
