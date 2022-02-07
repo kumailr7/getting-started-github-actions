@@ -32,15 +32,19 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          What is this directory?
+          echo What is this directory?
           ls -a
-          show me the version of git?
+          echo 
+          echo show me the version of git?
           git --version 
-          whats the version of java?
+          echo 
+          echo whats the version of java?
           java -version 
-          what are build tools version?
+          echo 
+          echo what are build tools version?
           mvn --version
           ant --version 
-          Is docker installed?
+          echo
+          echo Is docker installed?
           docker --version 
    
