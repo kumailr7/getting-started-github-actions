@@ -50,9 +50,9 @@ jobs:
           echo show me the process of memory in linux machine?
           df -h
           echo is neofetch installed?
-          sudo apt install neofetch 
+          sudo apt install kubectl  
           echo 
-          show me the version of linux installled/
+          show me the version of linux installled?
           neofetch 
           
           
