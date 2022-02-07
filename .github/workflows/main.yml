@@ -45,6 +45,5 @@ jobs:
           mvn --version
           ant --version 
           echo
-          echo Is docker installed?
-          docker --version 
+          
    
