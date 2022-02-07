@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Gettung statred wuth github actions 
+name: Getting statred wuth github actions 
 
 # Controls when the workflow will run
 on:
@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo Hello, world!
+        run: echo This is an infomative ipipeline about linux machine 
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
@@ -49,6 +49,11 @@ jobs:
           docker --version 
           echo show me the process of memory in linux machine?
           df -h
+          echo is neofetch installed?
+          sudo apt install neofetch 
+          echo 
+          show me the version of linux installled/
+          neofetch 
           
           
    
