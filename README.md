@@ -1,1 +1,1 @@
-# getting-started-guthub-actions
+# getting-started-github-actions
