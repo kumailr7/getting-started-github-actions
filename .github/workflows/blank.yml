@@ -46,7 +46,7 @@ jobs:
           echo what is the version of docker installed?
           docker --version 
           echo "--------------------------"
-          echo how many numbers of containers ruuning of docker in basckground?
+          echo how many numbers of containers running of docker in background?
           sudo docker ps -a 
           echo "--------------------------"
           echo what is the memory consumption in machine?
